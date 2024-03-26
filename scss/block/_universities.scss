@@ -1,0 +1,42 @@
+.feature {
+  position: relative;
+  padding: 55px 0 175px 0;
+  background: #fafafa;
+}
+
+.feature__title {
+  color: #373737;
+  text-align: center;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  margin-bottom: 86px;
+  transition: all 0.3s;
+}
+
+.feature__title:hover {
+  transform: skew(-20deg);
+}
+
+.feature__image-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature__image-scroll {
+  position: absolute;
+  bottom: 57px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.feature__image {
+  transition: all 0.3s;
+}
+
+.feature__image:hover {
+  transform: scale(1.2);
+}

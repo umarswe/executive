@@ -1,0 +1,38 @@
+.header {
+  padding: 40px 0 115px 0;
+}
+
+.header__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.header__link {
+  color: #373737;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: all 0.3s;
+}
+
+.header__item:hover .header__link {
+  color: #717cff;
+}
+
+.header__item:last-child {
+  padding: 12px 32px;
+  border-radius: 11px;
+  border: 2px solid #717cff;
+}
+
+.header__item:last-child:hover .header__link {
+  color: #717cff;
+}

@@ -1,0 +1,42 @@
+.apply {
+  padding: 80px 0;
+  background-color: #fafafa;
+}
+
+.apply__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.apply__title {
+  color: #252525;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.apply__cta-action {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+
+  padding: 12px 34px;
+  border-radius: 11px;
+  background: #717cff;
+
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.apply__cta-action::after {
+  content: "";
+  width: 28px;
+  height: 26px;
+  display: inline-block;
+  background-image: url("../img/more.svg");
+}
